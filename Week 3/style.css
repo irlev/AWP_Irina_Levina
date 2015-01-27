@@ -1,0 +1,118 @@
+﻿html {
+  -webkit-background-image: bottom, #AA663A 24%, #672770 86%;
+  -moz-background-image: bottom, #AA663A 24%, #672770 86%;
+  -ms-background-image: bottom, #AA663A 24%, #672770 86%;
+  background-image: bottom, #AA663A 24%, #672770 86%;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  width: 50em;
+  margin: auto;
+  font: Verdana, 12px, 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header,
+article,
+footer {
+  background-color: #eeeeee;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  background-color: 8px;
+  width: 640px;
+  border: 1px solid #000000;
+  margin-bottom: 4px;
+  padding: 8px;
+}
+
+header h1 {
+  font: "Princess Sofia", cursive;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav {
+  width: 640px;
+  clear: left;
+  float: left;
+  overflow: hidden;
+}
+
+nav ul {
+  height: 40px;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+nav ul li a {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  display: block;
+  line-height: 30px;
+  padding: 0 20px 0 20px;
+  margin: 0 4px 0 4px;
+  -webkit-background-image: bottom, #4d7cf2 24%, #5c95ff 86%;
+  -moz-background-image: bottom, #4d7cf2 24%, #5c95ff 86%;
+  -ms-background-image: bottom, #4d7cf2 24%, #5c95ff 86%;
+  background-image: bottom, #4d7cf2 24%, #5c95ff 86%;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px outset #ffffff;
+}
+
+nav ul li a:hover {
+  -webkit-background-image: bottom, #5c95ff 24%, #6caeff 86%;
+  -moz-background-image: bottom, #5c95ff 24%, #6caeff 86%;
+  -ms-background-image: bottom, #5c95ff 24%, #6caeff 86%;
+  background-image: bottom, #5c95ff 24%, #6caeff 86%;
+}
+
+article {
+  float: left;
+  line-height: 140%;
+}
+
+article img {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  float: right;
+  border: 2px solid #000;
+  margin-left: 8px;
+}
+
+article h2 {
+  font: font2;
+  font-size: 21.6px;
+  line-height: 140%;
+}
+
+article h3 {
+  font: font2;
+  font-size: 19.200000000000003px;
+  line-height: 140%;
+  margin-top: 8px;
+}
+
+article p {
+  margin-bottom: 12px;
+}
+
+footer {
+  float: left;
+  text-align: center;
+}
