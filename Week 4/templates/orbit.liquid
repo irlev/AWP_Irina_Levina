@@ -1,0 +1,37 @@
+{% block content %}
+<ul class="example-orbit" data-orbit>
+  <li>
+    <img src="assets/img/gal1.png" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
+    </div>
+  </li>
+  <li class="active">
+    <img src="assets/img/gal2.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="assets/img/gal3.png" alt="slide 3" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
+
+<div>
+	<h1>Heading</h1>
+</div>
+
+<div class="row">
+	<div class="small-8 columns">
+		{{ 5 | lorem_ipsum:'p' }}
+	</div>
+	<div class="small-4 columns">
+		<div class="panel"
+		{{ 2 | lorem_ipsum:'p' }}
+	</div>
+</div>
+
+{% endblock %}

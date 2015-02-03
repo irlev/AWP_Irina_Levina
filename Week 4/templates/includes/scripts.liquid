@@ -1,0 +1,14 @@
+{{ "jquery.js" | asset_url | script_tag }}
+{{ "/assets/js/foundation.js" | asset_url | script_tag }}
+{{ "//cdn.jsdelivr.net/jquery.slick/1.4.0/slick.min.js" | script_tag }}
+<script>
+$(document).foundation({
+  slider: {on_change: function(){
+  		var width_v = $('#slider').attr('data-slider');
+        $('#im').width(width_v + '%');
+        }
+  }
+});
+
+
+</script>

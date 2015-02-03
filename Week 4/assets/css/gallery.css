@@ -1,0 +1,8 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Sass Error: Undefined variable: "$include-html-classes". \A         on line 1 of Z:\\public_html\\AWP_Irina_Levina\\Week 4\\assets\\css\\gallery.scss \A   Use --trace for backtrace. \A '; }
+
+  body * {
+  	display: none;
+  }
